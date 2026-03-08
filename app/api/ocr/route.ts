@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { OcrResult } from '@/types/ocr';
 
-const OCR_API_URL = 'http://103.60.206.9/ocr/van-ban';
+const OCR_API_URL = 'https://ocop-oct.digipro.com.vn/ocr/van-ban';
 
 interface OcrApiResponse {
   co_quan_ban_hanh: string;
